@@ -9,7 +9,7 @@ body{
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 #nav-list{
@@ -44,5 +44,35 @@ a:hover{
     font-weight: 100;
     font-size: 2.25em;
     color: #FFF5EE;
-    text-shadow: ;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+#date-section-korea{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./photos/shilla2.jpg");
+    background-size: cover;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: #FFF5EE;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+#date-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./photos/manhatta.jpg");
+    background-size: cover;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: #FFF5EE;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
