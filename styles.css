@@ -48,16 +48,35 @@ a:hover{
 }
 
 #date-section-korea{
+        width: 100%;
+    height: 100vh;
     display: flex;
-    align-items: center
+    align-items: center;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 #date-div-korea-img{
-    flex: 0, 0, 200px;    
+/*
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    width: 350px;
+    height: 240px;
+    */
 }
 
 #date-div-korea-text{
-    flex: 0, 0, 20%;
+    font-weight: 100;
+    font-size: 1.25em;
+    font-family: "Libre Baskerville";
+    margin: 30px;
+}
+
+#date-div-korea-text p{
+    font-style: italic;
 }
 /*
 #date-span-korea-text{
@@ -72,6 +91,21 @@ a:hover{
     align-items: center;
     justify-content: center;
     font-weight: 100;
-    font-size: 1.5em;
+    font-size: 1em;
+    margin: 20px;
 }
 
+#date-div-img{
+    margin: 20px;
+}
+
+#date-div-text{
+    font-weight: 100;
+    font-size: 1.25em;
+    font-family: "Libre Baskerville";
+    margin: 10px;
+}
+
+#date-div-text p{
+    font-style: italic;
+}
