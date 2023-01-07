@@ -67,10 +67,12 @@ a:hover{
     justify-content: center;
     background-image: url("./photos/PSK_3536.jpg");
     background-size: cover;
+    /*
     font-weight: 100;
     font-size: 2.25em;
     color: #FFF5EE;
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    */
 }
 
 #date-section-korea{
