@@ -48,31 +48,30 @@ a:hover{
 }
 
 #date-section-korea{
-    width: 100%;
-    height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url("./photos/shilla2.jpg");
-    background-size: cover;
-    font-weight: 100;
-    font-size: 1.5em;
-    color: #FFF5EE;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    align-items: center
 }
+
+#date-div-korea-img{
+    flex: 0, 0, 200px;    
+}
+
+#date-div-korea-text{
+    flex: 0, 0, 20%;
+}
+/*
+#date-span-korea-text{
+
+}
+*/
 
 #date-section{
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("./photos/manhatta.jpg");
-    background-size: cover;
     font-weight: 100;
     font-size: 1.5em;
-    color: #FFF5EE;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
+
