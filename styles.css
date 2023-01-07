@@ -27,18 +27,10 @@ img{
     object-fit: cover;
 }
 
-@media screen and (max-width: 500px) {
-    .responsive img{
-        width: auto;
-        height: auto;
-    }
-
-    .responsive h2{
-
-    }
-
-    .responsive p{
-
+@media screen and (max-width: 600px) { 
+    #date-section-korea{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
