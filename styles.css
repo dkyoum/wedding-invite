@@ -23,9 +23,16 @@ body{
 }
 
 img{
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+    .responsive img{
+        width: 100%;
+        height: auto;
+    }
 }
 
 li{
